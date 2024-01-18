@@ -1,0 +1,43 @@
+.container-fluid{
+    margin: 10px;
+    background-color: white;
+    gap:40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    padding:20px
+}
+nav{
+    background-color: white;
+}
+span{
+    color: rgb(168, 45, 156);
+    border: 2px solid rgb(169, 105, 162);
+    padding: 2px;
+}
+.navbar-nav{
+  gap:20px;
+  font-size: medium;
+}
+.right>a{
+    background-color: rgb(168, 45, 156);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.right>a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border:rgb(168, 45, 156) solid 2px;
+}
+.left>a{
+    border-radius:10px;
+    padding: 3px 5px;
+    border:rgb(168, 45, 156) solid 2px;
+}
+.left>a:hover{
+    background-color: rgb(168, 45, 156);
+    color:white;
+    cursor: pointer;
+}
