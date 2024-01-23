@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Internship } from 'src/app/models/interfaces';
 
 @Component({
   selector: 'app-internships',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./internships.component.scss']
 })
 export class InternshipsComponent {
+@Input()Internships:Internship[]=[];
+internshipKeys: (keyof Internship)[] = [ 'title', 'role', 'duration', 'companyname'];
 
 }

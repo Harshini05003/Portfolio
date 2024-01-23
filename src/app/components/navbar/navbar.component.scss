@@ -1,14 +1,16 @@
 .container-fluid{
-    margin: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255,0.9);
     gap:40px;
     display: flex;
     align-items: center;
-    border: 2px solid whitesmoke;
-    padding:20px
+    // border: 2px solid whitesmoke;
+    padding:15px;
+    margin:0px 20px;
+
 }
 nav{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
 }
 span{
     color: rgb(168, 45, 156);
@@ -24,12 +26,14 @@ span{
     border-radius: 20px;
     padding: 10px;
     color: white;
+   
 }
 .right>a:hover{
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     cursor: pointer;
     color: black;
     border:rgb(168, 45, 156) solid 2px;
+   
 }
 .left>a{
     border-radius:10px;
@@ -40,4 +44,33 @@ span{
     background-color: rgb(168, 45, 156);
     color:white;
     cursor: pointer;
+}
+
+.navbar {
+    background-color: transparent;
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+textarea,input{
+    border:1px black solid
+}
+button{
+    width:100px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 5px;
+}
+label{
+    color:black;
+    margin-bottom:5px;
+}
+input{
+    height: 40px;
 }

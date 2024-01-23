@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Education } from 'src/app/models/interfaces';
 
 @Component({
   selector: 'app-education',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./education.component.scss']
 })
 export class EducationComponent {
-
+@Input() Education:Education[]=[];
+educationKeys:(keyof Education)[]=['institution', 'completionBy', 'marks'];
 }

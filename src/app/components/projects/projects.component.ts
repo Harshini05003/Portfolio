@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Project } from 'src/app/models/interfaces';
 
 @Component({
   selector: 'app-projects',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
-
+@Input() Projects:Project[]=[];
+url=[
+  '/assets/project_1.png',
+  '/assets/project_2.png'
+]
 }

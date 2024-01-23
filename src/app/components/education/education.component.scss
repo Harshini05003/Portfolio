@@ -1,0 +1,34 @@
+.container{
+   margin-top:80px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+  
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+h2{
+
+    font-size: 40px;
+    color: rgb(168, 45, 156);
+
+}
+::ng-deep .p-accordion{
+    width:400px;
+    margin:20px 0px;
+}
+::ng-deep .p-accordion:hover{
+    box-shadow: 5px 5px 10px rgba(168, 45, 156, 0.5);
+}
+span{
+    font-weight: bold;
+}
+::ng-deep .p-accordion-header-link{
+    color:rgb(168, 45, 156);
+    text-decoration: none;
+}

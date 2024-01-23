@@ -1,1 +1,13 @@
-<p>certifications works!</p>
+<div class="container">
+    <div class="certifications" >
+      <p-card header="CERTIFICATE - {{certificate.id}}" *ngFor="let certificate of Certifications" class="certificate">
+        <p class="m-0">
+           {{certificate.certificate}}
+        </p>
+    </p-card>
+    </div>
+    <div class="image">
+     <h2>CERTIFICATIONS</h2>
+       <img src="/assets/certifications.png" alt="">
+    </div>
+ </div>

@@ -1,1 +1,15 @@
-<p>education works!</p>
+<div class="container">
+   <div class="image">
+    <h2>EDUCATION</h2>
+      <img src="/assets/education.png" alt="" class="image-transition">
+   </div>
+  <div class="education" >
+    <p-accordion [multiple]="true" [activeIndex]="[0]" *ngFor="let data of Education">
+      <p-accordionTab header="{{data.course}}">
+          <p *ngFor="let key of educationKeys">
+           <span> {{key|uppercase}}:</span> {{data[key]}}
+          </p>
+      </p-accordionTab>
+  </p-accordion>
+  </div>
+</div>

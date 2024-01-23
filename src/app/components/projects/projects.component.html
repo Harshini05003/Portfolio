@@ -1,1 +1,11 @@
-<p>projects works!</p>
+<div class="container">
+    <h2>PROJECTS</h2>
+    <div class="card-container">
+        <p-card header="{{project.title}}" subheader="{{project.description}}" [style]="{ width: '360px' }" *ngFor="let project of Projects">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="{{url[project.id-(1)]}}" />
+            </ng-template>
+        </p-card>
+    </div>
+</div>
+

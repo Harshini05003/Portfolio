@@ -7,5 +7,5 @@ import { data } from 'src/app/models/data';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent {
-  data:any=data;
+  data=data;
 }

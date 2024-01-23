@@ -10,8 +10,20 @@ import { EducationComponent } from './components/education/education.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
 import { InternshipsComponent } from './components/internships/internships.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { LanguagesComponent } from './components/languages/languages.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DialogModule } from 'primeng/dialog';
+import { AnimateOnScrollModule } from 'primeng/animateonscroll';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SkillsComponent } from './components/skills/skills.component';
+import { AccordionModule } from 'primeng/accordion';
+import { ScrollTopModule } from 'primeng/scrolltop';
+import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
+import { FormsModule } from '@angular/forms';
+import { PasswordModule } from 'primeng/password';
+import { ButtonModule } from 'primeng/button';
+import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -23,12 +35,24 @@ import { FooterComponent } from './components/footer/footer.component';
     CertificationsComponent,
     InternshipsComponent,
     ProjectsComponent,
-    LanguagesComponent,
-    FooterComponent
+    FooterComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DialogModule,
+    AnimateOnScrollModule,
+    BrowserAnimationsModule,
+    AccordionModule,
+    ScrollTopModule,
+    CardModule,
+    FieldsetModule,
+    FormsModule,
+    PasswordModule,
+    ButtonModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

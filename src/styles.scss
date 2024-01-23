@@ -7,3 +7,26 @@ $prefix: "mo-";
 
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "primeicons/primeicons.css";
+*{
+    margin: 0px;
+}
+body{
+    background: url('https://img.freepik.com/premium-photo/white-defocused-lights-silver-color-background_959985-286.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    // font-size: 40px;
+    // color: rgb(168, 45, 156);
+}
+img{
+    box-shadow:  5px 0px 10px rgba(0, 0, 0, 0.1),  
+    0px 5px 10px rgba(0, 0, 0, 0.1), 
+   -5px 0px 10px rgba(0, 0, 0, 0.1),   
+    0px -5px 10px rgba(0, 0, 0, 0.1); 
+}

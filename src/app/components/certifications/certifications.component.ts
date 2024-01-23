@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Certificate } from 'src/app/models/interfaces';
 
 @Component({
   selector: 'app-certifications',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./certifications.component.scss']
 })
 export class CertificationsComponent {
-
+@Input()Certifications:Certificate[]=[];
 }

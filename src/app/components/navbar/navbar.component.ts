@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Output, Renderer2 } from '@angular/core';
+import { Router } from '@angular/router';
+import { ApiService } from 'src/app/services/api.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +9,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+  constructor(private api:ApiService,private route:Router){}
+  enable:boolean=false;
+  formData={
+   name:'',emailId:'',message:''
+  }
+  openContactForm(){
+    this.enable=true;
+  }
+  @Output() scrollToSectionEvent = new EventEmitter<string>();
 
+  scrollToSection(sectionId: string): void {
+    this.scrollToSectionEvent.emit(sectionId);
+  }
+  submitData(){
+    this.api.sendContactInfo(this.formData).subscribe((response)=>{
+      console.log('successfully updated');
+    })
+    this.enable=false;
+    Swal.fire(
+      {
+        title: 'SUCCESSFULLY SUBMITTED',
+        text: 'Your response has been submitted successfully',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      }
+    )
+  }
 }
