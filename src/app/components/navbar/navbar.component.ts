@@ -1,5 +1,6 @@
 import { Component, ElementRef, EventEmitter, Output, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
+import { AlertsService } from 'src/app/services/alerts.service';
 import { ApiService } from 'src/app/services/api.service';
 import Swal from 'sweetalert2';
 
@@ -9,7 +10,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-  constructor(private api:ApiService,private route:Router){}
+  constructor(private api:ApiService,private route:Router,private alerts:AlertsService){}
   enable:boolean=false;
   formData={
    name:'',emailId:'',message:''
@@ -27,13 +28,6 @@ export class NavbarComponent {
       console.log('successfully updated');
     })
     this.enable=false;
-    Swal.fire(
-      {
-        title: 'SUCCESSFULLY SUBMITTED',
-        text: 'Your response has been submitted successfully',
-        icon: 'success',
-        confirmButtonText: 'OK'
-      }
-    )
+    this.alerts.contactAlert();
   }
 }

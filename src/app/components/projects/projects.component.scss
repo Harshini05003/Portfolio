@@ -20,6 +20,6 @@ h2{
   
 ::ng-deep.p-card:hover .p-card-subtitle {
     display: block;
-    transition: background-color 0.3s ease;
+    transition: background-color .3s linear;
   }
   

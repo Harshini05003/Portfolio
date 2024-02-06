@@ -4,83 +4,83 @@ export const data=
         designation:'Dot Net Developer',
         url:'https://thumbs.dreamstime.com/b/female-avatar-icon-women-clipart-png-vector-girl-avatar-women-clipart-bor-bisiness-icon-png-vector-233362315.jpg'
     }
-export const education=[
-    {
-      "id": 1,
-      "course": "SSLC",
-      "institution": "Amala Convent Girls Higher Secondary School,Thuckalay",
-      "completionBy": 2018,
-      "marks": 94.8
-    },
-    {
-      "id": 2,
-      "course": "HSC",
-      "institution": "Amala Convent Girls Higher Secondary School,Thuckalay",
-      "completionBy": 2020,
-      "marks": 80
-    },
-    {
-      "id": 3,
-      "course": "B Tech IT",
-      "institution": "National Engineering College,Kovilpatti",
-      "completionBy": 2024,
-      "marks": 92.3
-    }
-  ]
-export const certifications=[
-  {
-    "id": 1,
-    "certificate": "React Native authorized by Meta and offered through Coursera"
-  },
-  {
-    "id": 2,
-    "certificate": "Business English Certificate"
-  },
-  {
-    "id": 3,
-    "certificate": "Oracle Apex : Fundamentals"
-  }
-]
-export const internships=[
-  {
-    "id": 1,
-    "title": "IOT & Embedded Design",
-    "role": "Trainee",
-    "timePeriod": "02/2023 - 03/2023",
-    "duration": "4 weeks",
-    "companyname": "Mistral Solutions Pvt Ltd"
-  },
-  {
-    "id": 2,
-    "title": "Mobile App Developer",
-    "role": "Developer",
-    "timePeriod": "04/2023 - 05/2023",
-    "duration": "4 weeks",
-    "companyname": "Coderzbot Innovations"
-  },
-  {
-    "id": 3,
-    "title": "Web Development",
-    "role": "Trainee",
-    "timePeriod": "06/2023 - 07/2023",
-    "duration": "4 weeks",
-    "companyname": "Internshala"
-  }
-]
-export const projects=[
-  {
-    "id": 1,
-    "title": "Doctor Appointment Booking Application",
-    "timePeriod": "02/2023 - 05/2023",
-    "description": "The Doctor Appointment Booking App is a mobile application designed to simplify the process of Booking appointments with doctors"
-  },
-  {
-    "id": 2,
-    "title": "Little Lemon Restaurant Application",
-    "timePeriod": "02/2023",
-    "description": "The Little Lemon Restaurant Application is a Basic UI which can navigate the screens"
-  }
-]
+// export const education=[
+//     {
+//       "id": 1,
+//       "course": "SSLC",
+//       "institution": "Amala Convent Girls Higher Secondary School,Thuckalay",
+//       "completionBy": 2018,
+//       "marks": 94.8
+//     },
+//     {
+//       "id": 2,
+//       "course": "HSC",
+//       "institution": "Amala Convent Girls Higher Secondary School,Thuckalay",
+//       "completionBy": 2020,
+//       "marks": 80
+//     },
+//     {
+//       "id": 3,
+//       "course": "B Tech IT",
+//       "institution": "National Engineering College,Kovilpatti",
+//       "completionBy": 2024,
+//       "marks": 92.3
+//     }
+//   ]
+// export const certifications=[
+//   {
+//     "id": 1,
+//     "certificate": "React Native authorized by Meta and offered through Coursera"
+//   },
+//   {
+//     "id": 2,
+//     "certificate": "Business English Certificate"
+//   },
+//   {
+//     "id": 3,
+//     "certificate": "Oracle Apex : Fundamentals"
+//   }
+// ]
+// export const internships=[
+//   {
+//     "id": 1,
+//     "title": "IOT & Embedded Design",
+//     "role": "Trainee",
+//     "timePeriod": "02/2023 - 03/2023",
+//     "duration": "4 weeks",
+//     "companyname": "Mistral Solutions Pvt Ltd"
+//   },
+//   {
+//     "id": 2,
+//     "title": "Mobile App Developer",
+//     "role": "Developer",
+//     "timePeriod": "04/2023 - 05/2023",
+//     "duration": "4 weeks",
+//     "companyname": "Coderzbot Innovations"
+//   },
+//   {
+//     "id": 3,
+//     "title": "Web Development",
+//     "role": "Trainee",
+//     "timePeriod": "06/2023 - 07/2023",
+//     "duration": "4 weeks",
+//     "companyname": "Internshala"
+//   }
+// ]
+// export const projects=[
+//   {
+//     "id": 1,
+//     "title": "Doctor Appointment Booking Application",
+//     "timePeriod": "02/2023 - 05/2023",
+//     "description": "The Doctor Appointment Booking App is a mobile application designed to simplify the process of Booking appointments with doctors"
+//   },
+//   {
+//     "id": 2,
+//     "title": "Little Lemon Restaurant Application",
+//     "timePeriod": "02/2023",
+//     "description": "The Little Lemon Restaurant Application is a Basic UI which can navigate the screens"
+//   }
+// ]
 //  export const data=
 // {
 //   name:'Sivaprakash R',

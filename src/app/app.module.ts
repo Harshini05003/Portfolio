@@ -23,7 +23,8 @@ import { FormsModule } from '@angular/forms';
 import { PasswordModule } from 'primeng/password';
 import { ButtonModule } from 'primeng/button';
 import { ReactiveFormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { NgxLoadingModule } from "ngx-loading";
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import {HttpClientModule} from '@angular/common/http'
     PasswordModule,
     ButtonModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxLoadingModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

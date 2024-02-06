@@ -10,5 +10,5 @@ import { urls } from 'src/app/models/urls';
 export class FooterComponent {
   urls:any=urls;
   icons:any=icons;
-  apps:any=['github','facebook','instagram','linkedin'];
+  apps:string[]=['github','facebook','instagram','linkedin'];
 }
